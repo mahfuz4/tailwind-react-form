@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .label {
+    @apply text-lg block text-indigo-500 mt-2;
+  }
+
+  .input {
+    @apply text-gray-600 border-b border-gray-300 mt-2 bg-transparent focus:outline-none focus:border-indigo-500 h-5 p-1;
+  }
+}
